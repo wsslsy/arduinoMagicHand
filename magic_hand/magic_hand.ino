@@ -6,15 +6,15 @@
 #define BACK 3
       //这是一些有助于程序可读性的宏定义
       //可以忽略它们，仔细读程序你就会明白他们的用途
-#define TRIG_PIN 6
+#define TRIG_PIN 4
 #define ECHO_PIN 7
       //定义超声波传感器的几个引脚
 #define SPEED 70
       //定义驱动电机的速度，255为最高，0为最低。修改该数值会修改速度。
-int carLeftA = 10;
+int carLeftA = 6;
 int carLeftB = 11;
-int carRightA = 9;
-int carRightB = 5;
+int carRightA = 5;
+int carRightB = 3;
       //定义小车驱动电机的几个引脚，要注意的是，这里只有3、5、9、10、11等引脚可以输出PWM。
 long distance;
       //定义储存超声波测得距离的变量
